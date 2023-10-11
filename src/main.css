@@ -1,15 +1,23 @@
 * {
 	margin: 0;
 	padding: 0;
+	user-select: none;
 }
 body {
 	width: 100%;
 	display: grid;
 	place-items: center;
 }
-.contaner1 {
+/*login */
+
+.login {
 	margin-top: 100px;
- /* display: none; */
+	/* display: none; */
+}
+/* register */
+.register {
+	margin-top: 100px;
+
 }
 .form {
 	display: flex;
@@ -152,82 +160,10 @@ body .form label .a {
 	}
 }
 
+/*  1 login */
 
-
-  /*  1 login */
-
-.contaner {
+.contaner1 {
 	margin-top: 100px;
- display: none;
+	/* display: none; */
 }
-.form1 {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	max-width: 70vh;
-	padding: 20px;
-	border-radius: 20px;
-	position: relative;
-	background-color: #1a1a1a;
-	color: #fff;
-	border: 1px solid #333;
-}
-
-
-
-.form1 label {
-	position: relative;
-}
-
-.form1 label .input1 {
-	background-color: #333;
-	color: #fff;
-	width: 67vh;
-	padding: 20px 05px 05px 10px;
-	outline: 0;
-	border: 1px solid rgba(105, 105, 105, 0.397);
-	border-radius: 10px;
-}
-
-.form label .input1 + span {
-	color: rgba(255, 255, 255, 0.5);
-	position: absolute;
-	left: 10px;
-	top: 0px;
-	font-size: 0.9em;
-	cursor: text;
-	transition: 0.3s ease;
-}
-
-.form1 label .input1:placeholder-shown + span {
-	top: 12.5px;
-	font-size: 0.9em;
-}
-
-.form1 label .input1:focus + span,
-.form1 label .input1:valid + span {
-	color: #00bfff;
-	top: 0px;
-	font-size: 0.7em;
-	font-weight: 600;
-}
-
-.input1 {
-	font-size: medium;
-}
-
-.submit {
-	border: none;
-	outline: none;
-	padding: 10px;
-	border-radius: 10px;
-	color: #fff;
-	font-size: 16px;
-	transform: 0.3s ease;
-	background-color: #00bfff;
-}
-
-.submit:hover {
-	background-color: #00bfff96;
-}
-  /* login2 */
+/* login2 */
