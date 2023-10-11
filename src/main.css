@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--input: rgb(162, 216, 35);
+	--inputcolor: rgb(0, 0, 0);
+	--inputborder: red;
+	--bg: rgba(240, 178, 8, 0.486);
+}
+body {
+	display: grid;
+	place-items: center;
+
+	width: 100%;
+
+	margin-top: 100px;
+	background-color: rgb(39, 44, 42);
+}
+.katta {
+	display: grid;
+	place-items: center;
+	width: 80vh;
+	/* height: 50vh; */
+	padding: 15px;
+	gap: 20px;
+	border-radius: 10px;
+	background-color: var(--bg);
+}
+button {
+	padding: 15px 25px;
+	border: none;
+	color: var(--inputcolor);
+	border: 2px solid var(--inputborder);
+	border-radius: 10px;
+	background-color: var(--input);
+	font-size: 20px;
+	width: 150px;
+}
+button:hover {
+	background-color: rgb(214, 179, 24);
+	color: wheat;
+	border: 2px solid yellowgreen;
+}
+button:active {
+	transform: scale(0.8);
+}
+
+.contener {
+	display: flex;
+
+	gap: 10px;
+}
+label {
+	color: var(--inputcolor);
+	font-size: 30px;
+}
+.span {
+	display: none;
+	flex-direction: column;
+	gap: 10px;
+}
+#kasb {
+	padding: 10px 15px;
+	width: 250px;
+	border-radius: 10px;
+}
+tr {
+	display: flex;
+	gap: 10px;
+}
+tbody {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.as {
+	width: 100px;
+}
+.biol {
+	width: 350px;
+}
+.hato {
+	border: 2px solid red;
+	box-shadow: 0px 0px 20px rgba(128, 0, 0, 1);
+}
+.zor {
+	border: 2px solid rgb(94, 255, 0);
+	box-shadow: 0px 0px 20px rgb(58, 128, 0);
+}
+h4 {
+	color: rgba(7, 30, 36, 0.705);
+}
