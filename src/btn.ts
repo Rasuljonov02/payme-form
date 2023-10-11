@@ -1,9 +1,4 @@
-import './main.css';
-// import { faker } from "@faker-js/faker";
-import * as yup from 'yup';
-// import { ToastContainer, toast } from 'react-toastify';
 
-// import 'react-toastify/dist/ReactToastify.css';
 const button:HTMLButtonElement = document.querySelector("button")!,
       toast:HTMLParagraphElement = document.querySelector(".toast")!,
       closeIcon:HTMLParagraphElement = document.querySelector(".close")!,
