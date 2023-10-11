@@ -17,8 +17,16 @@ body {
 /* register */
 .register {
 	margin-top: 100px;
+	display: none;
 
 }
+/* Forget */
+.forget {
+	margin-top: 100px;
+	display: none;
+
+}
+
 .form {
 	display: flex;
 	flex-direction: column;
