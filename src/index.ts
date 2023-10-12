@@ -3,21 +3,20 @@ import "./main.css";
 import "./register";
 import "./forget";
 
-const login: HTMLParagraphElement = document.querySelector(".login")!;
+const login: HTMLDivElement = document.querySelector(".login")!;
 const parol: HTMLInputElement = document.querySelector("#loginparol")!;
 const email: HTMLInputElement = document.querySelector("#loginemail")!;
 const loginbtn: HTMLButtonElement = document.querySelector("#loginbtn")!;
-const register: HTMLParagraphElement = document.querySelector(".register")!;
-
+const register: HTMLDivElement = document.querySelector(".register")!;
 let malumotlar: { email: string; password: string }[] = [];
 
-loginbtn.addEventListener("click", (e) => {
-	e.preventDefault();
-	const emailValue: string = email.value;
-	const parolValue: string = parol.value;
+loginbtn.addEventListener("click", (e: MouseEvent) => {
+  e.preventDefault();
+  const emailValue: string = email.value;
+  const parolValue: string = parol.value;
 
-	register.style.display = "block";
-	login.style.display = "none";
-	malumotlar.push({ email: emailValue, password: parolValue });
-	console.log(malumotlar);
+  register.style.display = "block";
+  login.style.display = "none";
+  malumotlar.push({ email: emailValue, password: parolValue });
+  console.log(malumotlar);
 });
