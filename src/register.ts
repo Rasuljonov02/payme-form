@@ -7,8 +7,8 @@ const registrparol: HTMLInputElement = document.querySelector("#registrparol")!;
 const registrparoltakror: HTMLInputElement = document.querySelector("#registrparoltakror")!;
 const registrbtn: HTMLButtonElement = document.querySelector("#registrbtn")!;
 
-const register1: HTMLParagraphElement = document.querySelector("#register")!;
-const forget1: HTMLParagraphElement = document.querySelector("#forget")!;
+const register1: HTMLParagraphElement = document.querySelector(".register")!;
+const forget1: HTMLParagraphElement = document.querySelector(".forget")!;
 
 let malumotlar1: {
 	name: string;
