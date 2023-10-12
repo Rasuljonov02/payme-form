@@ -1,7 +1,7 @@
 import "./main.css";
 // import * as yup from "yup";
-import "./register.ts";
-import "./forget.ts";
+import "./register";
+import "./forget";
 
 const login: HTMLParagraphElement = document.querySelector(".login")!;
 const parol: HTMLInputElement = document.querySelector("#loginparol")!;
