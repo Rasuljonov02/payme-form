@@ -1,3 +1,4 @@
+import IMask from 'imask';
 
 const login1: HTMLParagraphElement = document.querySelector(".login")!;
 const registrfirstname: HTMLInputElement = document.querySelector("#registrfirstname")!;
@@ -20,8 +21,14 @@ let malumotlar1: {
   takrorparol: string;
 }[] = [];
 
+
+IMask(registrtel, {
+  mask: '+{998}(90)000-00-00'
+});
+
 registrbtn.addEventListener("click", (e: MouseEvent) => {
   e.preventDefault();
+
   const firstnameValue: string = registrfirstname.value;
   const lastnameValue: string = registrlasname.value;
   const telValue: string = registrtel.value;
